@@ -1,0 +1,175 @@
+.body{
+    width: 1536px;
+    height: 865;
+}
+/* navber part  */
+.navbar {
+  background-color: rgb(122, 133, 137);  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-left h1 {
+    color: wheat;
+    font-weight: bold;
+}
+.nav-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    list-style: none;
+}
+.nav-center li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.nav-center h2{
+    color: white;
+}
+.nav-right button{
+    font-size: medium;
+    padding: 5px 30px;
+    border-radius: 6px;
+    border-color: transparent;
+    cursor: pointer;
+    background-color: bisque;
+}
+.nav-right button:hover{
+    background-color: chocolate;
+    font-size: large;
+}
+
+
+/* About part  */
+.hero-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.hero-sec .main-hero{
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+.hero-sec .main-hero h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+.hero-sec .main-hero .btn{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btn .btn-hero{
+        font-size: medium;
+        padding: 5px 30px;
+        border-radius: 6px;
+        border-color: transparent;
+        cursor: pointer;   
+        background-color: bisque;
+}
+.btn .btn-hero:hover{
+    background-color: chocolate;
+    font-size: large;
+
+}
+.image-hero img{
+    width: 400px;
+    height: 400px;
+    border-radius: 360px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* skills part  */
+.skills{
+    background-color: beige;
+    padding: 50px;
+}
+.skills .skills-about{
+    display: grid;
+    justify-content: center;
+}
+.skills .skills-about h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.skills-col{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 50px;
+    column-gap: 10px;
+}
+.skills-col .tab{
+        border: 3px solid burlywood;
+        border-radius: 5px;
+        cursor: pointer;
+        text-shadow: 2px 0px 3px brown;
+}
+.skills-col .tab:hover{
+    background-color: white;
+}
+.skills-col .tab h3{
+    color: black;
+    font-weight: bold;
+}
+.skills-pro{
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+.skills-pro h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+.skills-pro h4{
+    margin-top: 0px;
+}
+
+/* project part  */
+.pro-aca{
+    margin: 50px;
+}
+.pro-aca h2{
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.pro-item{
+    margin-top: 50px;
+    display: flex;
+    column-gap: 20px;
+    text-shadow: 3px 5px 1px white;
+}
+
+.pro-card{
+    border: 3px solid lightseagreen;
+    background-color: wheat;
+    border-radius: 9px;
+}
+.pro-card:hover{
+    background-color: white;
+}
+.pro-card h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.pro-card h5{
+    color: black;
+}
+.card-item{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.pro-item img{
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+}
